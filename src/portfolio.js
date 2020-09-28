@@ -246,7 +246,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/cvalue.png"),
-      link: "https://www.indovationindia.com/",
+      link: "https://www.cvalueindia.com/",
     },
   ],
 };
