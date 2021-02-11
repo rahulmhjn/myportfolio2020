@@ -12,7 +12,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1qhkmhYC9u78Q66DGaiTICW75uV4DpSBM/view?usp=sharing",
+    "https://drive.google.com/file/d/1xl-qy9bP0wo20LM7GMvXtqFbC5EAaJyI/view",
 };
 
 // Your Social Media Link
