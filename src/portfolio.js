@@ -254,31 +254,62 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle:
+    "PERSONAL, SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cart.png"),
+      projectName: "Shop Gateway",
+      projectDesc: "Shopping cart built with MERN & Redux",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://shopgateway.herokuapp.com/"
+        },
+        {
+          name: "Visit Code",
+          url: "https://github.com/rahulmhjn/E_Commerce_Platform"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/otz.png"),
-      link: "https://www.otzjapan.com/"
+      projectName: "OTZ JAPAN",
+      projectDesc: "Built this e-comm website for my japanese client",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.otzjapan.com/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/indovation.png"),
-      link: "https://www.indovationindia.com/"
+      projectName: "Indovation",
+      projectDesc:
+        "A platform for the community members to share the ideas and participate in the activities for a social cause",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.indovationindia.com/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/cvalue.png"),
-      link: "https://www.cvalueindia.com/"
+      projectName: "CValue",
+      projectDesc:
+        "Build and generate your CV automatically by adding the your bio-data",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.cvalueindia.com/"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -344,13 +375,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     // {
-    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    //   url: "",
     //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
     //   description:
     //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     // },
     // {
-    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   url: "",
     //   title: "Why REACT is The Best?",
     //   description:
     //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -371,7 +402,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
@@ -385,9 +416,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
