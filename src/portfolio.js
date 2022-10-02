@@ -335,6 +335,17 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "MERN Stack Certification",
+      subtitle: "Udemy",
+      image: require("./assets/images/mern.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1gH0dXWUN6P1BKe9_kXHMS4VN7VVP91kP/view?usp=sharing"
+        }
+      ]
+    },
+    {
       title: "Angular Online Winter training, 2018",
       subtitle: "Certification",
       image: require("./assets/images/angular.png"),
