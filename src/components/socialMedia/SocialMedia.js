@@ -127,6 +127,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.letterboxd ? (
+        <a
+          href={socialMediaLinks.letterboxd}
+          className="icon-button medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-film"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

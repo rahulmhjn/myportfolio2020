@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Rahul Mahajan",
   title: "Hi all, I'm Rahul",
-  subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Angular and some other cool libraries and frameworks."
-  ),
+  subTitle: `A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Angular and some other cool libraries and frameworks.`,
   resumeLink:
     "https://drive.google.com/file/d/1xl-qy9bP0wo20LM7GMvXtqFbC5EAaJyI/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -36,12 +34,12 @@ const socialMediaLinks = {
   github: "https://github.com/rahulmhjn",
   linkedin: "https://www.linkedin.com/in/rahul-mahajan0786/",
   gmail: "rahul.mahajan676@gmail.com",
-  // gitlab: "",
   facebook: "https://www.facebook.com/rahul.mahajan.796569",
   medium: "https://medium.com/@rahul.mahajan676",
   stackoverflow: "https://stackoverflow.com/users/10663199/rahul-mahajan",
   instagram: "https://www.instagram.com/rahulmahajan.98/",
   twitter: "https://twitter.com/RahulMahajan676",
+  letterboxd: "https://letterboxd.com/rahulmahajan/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -167,11 +165,11 @@ const techStack = {
     },
     {
       Stack: "UI/UX",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -183,15 +181,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-Stack Developer (MERN)",
+      role: "Full-Stack Developer",
+      company: "GraffersID",
+      companylogo: require("./assets/images/graffersid.png"),
+      date: "April 2022 – Present",
+      desc: "Building Fintech..."
+      // descBullets: [
+      //   "Inventory Management / E-Comm",
+      //   "Advertisement",
+      //   "Matrimonial / Matchmaking",
+      //   "Business Development"
+      // ]
+    },
+    {
+      role: "Full-Stack Developer",
       company: "Eoraa&Co",
       companylogo: require("./assets/images/eoraa.png"),
-      date: "August 2020 – Present",
-      desc: "Working as a Full-time employee"
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      // ],
+      date: "August 2020 – March 2022",
+      desc: "Built software systems in different domains:",
+      descBullets: [
+        "Inventory Management / E-Comm",
+        "Advertisement",
+        "Matrimonial / Matchmaking",
+        "Business Development"
+      ]
     },
     {
       role: "Full-Stack Developer Intern",
@@ -200,30 +213,27 @@ const workExperiences = {
       date: "Apr 2020 – June 2020 & May 2019 – July 2019",
       desc: "",
       descBullets: [
-        " Built the api's for ecommerce application with node js as backend and mongodb as database.",
-        "Database used is Mongodb.",
-        "Worked on project dealing with vuejs and nodejs.",
-        "Worked on a project using React.",
-        "Using my nodejs skills, integrated an iot device with the web using mongodb as a database.",
-        "Built a variety of applications in Angular and nodejs as backend."
+        "Built the api's for ecommerce application with node js as backend and mongodb as database.",
+        "Worked on project dealing with vuejs and nodejs",
+        "integrated iot devices with the web"
       ]
     },
     {
-      role: "Back End Developer Intern",
+      role: "Back End Developer Freelance",
       company: "Stickman Services",
       companylogo: require("./assets/images/stickman.png"),
       date: "Sept 2019 – Nov 2019",
-      desc: "",
-      descBullets: [
-        "Built an ecommerce website.",
-        "Database used is Mongodb.",
-        "Backend used is NodeJs/ ExpressJs",
-        "Vendor can add products, his shop details and many more.",
-        "Admin can approve vendor, can also approve/reject his product and also add various images features and also hd points to the customer.",
-        "Customer can watch and buy products.",
-        "Wishlist and cart included.",
-        "Deal types also included which can be set by admin according to his interest."
-      ]
+      desc: "Built an ecommerce website using nodejs, mongodb, ejs, and many more services like nodemailer, msg91, etc"
+      // descBullets: [
+      //   "Built an ecommerce website.",
+      //   "Database used is Mongodb.",
+      //   "Backend used is NodeJs/ ExpressJs",
+      //   "Vendor can add products, his shop details and many more.",
+      //   "Admin can approve vendor, can also approve/reject his product and also add various images features and also hd points to the customer.",
+      //   "Customer can watch and buy products.",
+      //   "Wishlist and cart included.",
+      //   "Deal types also included which can be set by admin according to his interest."
+      // ]
     },
     {
       role: "Full-Stack Developer Intern",
@@ -286,14 +296,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/indovation.png"),
-      projectName: "Indovation",
+      image: require("./assets/images/mushroom.jpg"),
+      projectName: "Tanoshiitake",
       projectDesc:
-        "A platform for the community members to share the ideas and participate in the activities for a social cause",
+        "A platform for the japanese farmers to sell different types/species of mushroom. Also created a seller and admin dashboard for members to manage sales and stocks.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.indovationindia.com/"
+          url: "https://tanoshiitake.team-chikara.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -401,7 +411,7 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      subtitle: "Codelab at GDG DevFest 2019",
       slides_url: "",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }

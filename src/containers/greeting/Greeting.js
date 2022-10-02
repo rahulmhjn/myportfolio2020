@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -9,6 +9,7 @@ import Button from "../../components/button/Button";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import Emoji from "../../components/Emoji/Emoji";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -26,7 +27,9 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">
+                  <Emoji symbol="👋" />
+                </span>
               </h1>
               <p
                 className={
@@ -35,7 +38,10 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                A passionate Software Developer {<Emoji symbol="🚀" />} having
+                an experience of building Web and Mobile applications with
+                JavaScript / Reactjs / Nodejs / React Native / Angular and some
+                other cool libraries and frameworks.
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
@@ -50,7 +56,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -59,6 +65,12 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
+          </div> */}
+          <div className="greeting-image-div">
+            <img
+              alt="man sitting on table"
+              src={require("../../assets/images/manOnTable.svg")}
+            ></img>
           </div>
         </div>
       </div>
