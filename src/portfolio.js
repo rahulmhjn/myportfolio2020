@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Rahul",
   subTitle: `A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Angular and some other cool libraries and frameworks.`,
   resumeLink:
-    "https://drive.google.com/file/d/1xl-qy9bP0wo20LM7GMvXtqFbC5EAaJyI/view?usp=sharing",
+    "https://drive.google.com/file/d/1XoRphxQYIo1IVDOOcdyNy-wgeX71Yg0d/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
