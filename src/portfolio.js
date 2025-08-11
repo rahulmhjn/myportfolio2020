@@ -316,7 +316,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://reactiveforms-943dc.firebaseapp.com/"
+          url: "https://scribe.rahulmahajan.dev/"
         },
         {
           name: "Visit Code",
