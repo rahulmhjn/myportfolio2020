@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Rahul",
   subTitle: `A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Angular and some other cool libraries and frameworks.`,
   resumeLink:
-    "https://drive.google.com/file/d/1XoRphxQYIo1IVDOOcdyNy-wgeX71Yg0d/view?usp=sharing",
+    "https://drive.google.com/file/d/1aFTJHNGZ35QlpMkoqJsdAOvXZOFRboyv/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -269,12 +269,12 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/cart.png"),
-      projectName: "Shop Gateway",
-      projectDesc: "Shopping cart built with MERN & Redux",
+      projectName: "Marketly",
+      projectDesc: "E-commerce application built with MERN & Redux.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://shopgateway.herokuapp.com/"
+          url: "https://marketly.rahulmahajan.dev/"
         },
         {
           name: "Visit Code",
@@ -309,14 +309,18 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/cvalue.png"),
-      projectName: "CValue",
+      image: require("./assets/images/scribe.png"),
+      projectName: "Scribe",
       projectDesc:
-        "Build and generate your CV automatically by adding the your bio-data",
+        "Scribe is a thought sharing platform where you can share your thoughts and craziest ideas with the world. You can also interact with other users by commenting on their posts.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.cvalueindia.com/"
+          url: "https://reactiveforms-943dc.firebaseapp.com/"
+        },
+        {
+          name: "Visit Code",
+          url: "https://github.com/rahulmhjn/social-network"
         }
         //  you can add extra buttons here.
       ]
@@ -453,7 +457,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "RahulMahajan676", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
