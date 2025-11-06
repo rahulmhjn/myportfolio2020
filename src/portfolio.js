@@ -207,7 +207,7 @@ const workExperiences = {
     {
       role: "Full-Stack Developer",
       company: "Eoraa&Co",
-      companylogo: require("./assets/images/eoraa.png"),
+      companylogo: require("./assets/images/eoraa_co_logo.jpeg"),
       date: "August 2020 – March 2022",
       desc: "Built software systems in different domains:",
       descBullets: [
