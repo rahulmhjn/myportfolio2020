@@ -37,7 +37,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/rahul.mahajan.796569",
   medium: "https://medium.com/@rahul.mahajan676",
   stackoverflow: "https://stackoverflow.com/users/10663199/rahul-mahajan",
-  instagram: "https://www.instagram.com/rahulmahajan.98/",
+  instagram: "https://www.instagram.com/rahulmahajan.__/",
   twitter: "https://twitter.com/RahulMahajan676",
   letterboxd: "https://letterboxd.com/rahulmahajan/",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -181,17 +181,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-Stack Developer",
-      company: "GraffersID",
-      companylogo: require("./assets/images/graffersid.png"),
-      date: "April 2022 – Present",
-      desc: "Building Fintech..."
+      role: "Associate Tech Lead",
+      company: "Harbinger Group",
+      companylogo: require("./assets/images/harbinger_group_logo.jpeg"),
+      date: "November 2025 – Present",
+      desc: "Building Learning Management System project for Heidrick & Struggles"
       // descBullets: [
       //   "Inventory Management / E-Comm",
       //   "Advertisement",
       //   "Matrimonial / Matchmaking",
       //   "Business Development"
       // ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "GraffersID",
+      companylogo: require("./assets/images/graffersid.png"),
+      date: "April 2022 – November 2025",
+      descBullets: [
+        "Collaborated as a Consultant at Harbinger Group on a Learning Management System (LMS) project for Heidrick & Struggles.",
+        "Developed a Fintech application, Alfapay, for AlFardan Exchange, enhancing their digital payment solutions.",
+        "Utilized full stack development skills to deliver high-quality software solutions in a remote work environment."
+      ]
     },
     {
       role: "Full-Stack Developer",
@@ -205,50 +216,50 @@ const workExperiences = {
         "Matrimonial / Matchmaking",
         "Business Development"
       ]
-    },
-    {
-      role: "Full-Stack Developer Intern",
-      company: "Ezmata Technologies",
-      companylogo: require("./assets/images/ezmata.jpeg"),
-      date: "Apr 2020 – June 2020 & May 2019 – July 2019",
-      desc: "",
-      descBullets: [
-        "Built the api's for ecommerce application with node js as backend and mongodb as database.",
-        "Worked on project dealing with vuejs and nodejs",
-        "integrated iot devices with the web"
-      ]
-    },
-    {
-      role: "Back End Developer Freelance",
-      company: "Stickman Services",
-      companylogo: require("./assets/images/stickman.png"),
-      date: "Sept 2019 – Nov 2019",
-      desc: "Built an ecommerce website using nodejs, mongodb, ejs, and many more services like nodemailer, msg91, etc"
-      // descBullets: [
-      //   "Built an ecommerce website.",
-      //   "Database used is Mongodb.",
-      //   "Backend used is NodeJs/ ExpressJs",
-      //   "Vendor can add products, his shop details and many more.",
-      //   "Admin can approve vendor, can also approve/reject his product and also add various images features and also hd points to the customer.",
-      //   "Customer can watch and buy products.",
-      //   "Wishlist and cart included.",
-      //   "Deal types also included which can be set by admin according to his interest."
-      // ]
-    },
-    {
-      role: "Full-Stack Developer Intern",
-      company: "Architectica Soft. Solutions",
-      companylogo: require("./assets/images/arch.png"),
-      date: "Jan 2019 – Apr 2019",
-      desc: "",
-      descBullets: [
-        "Worked on a live project named Rental WebApp.",
-        "This webapp deals with the customer and vendors for the dealing of renting if bikes, cars and adventure trips.",
-        "Front End Technology: Angular",
-        "Back End Technology: Firebase",
-        "Link: https://rental-2f319.firebaseapp.com/ "
-      ]
     }
+    // {
+    //   role: "Full-Stack Developer Intern",
+    //   company: "Ezmata Technologies",
+    //   companylogo: require("./assets/images/ezmata.jpeg"),
+    //   date: "Apr 2020 – June 2020 & May 2019 – July 2019",
+    //   desc: "",
+    //   descBullets: [
+    //     "Built the api's for ecommerce application with node js as backend and mongodb as database.",
+    //     "Worked on project dealing with vuejs and nodejs",
+    //     "integrated iot devices with the web"
+    //   ]
+    // },
+    // {
+    //   role: "Back End Developer Freelance",
+    //   company: "Stickman Services",
+    //   companylogo: require("./assets/images/stickman.png"),
+    //   date: "Sept 2019 – Nov 2019",
+    //   desc: "Built an ecommerce website using nodejs, mongodb, ejs, and many more services like nodemailer, msg91, etc"
+    //   // descBullets: [
+    //   //   "Built an ecommerce website.",
+    //   //   "Database used is Mongodb.",
+    //   //   "Backend used is NodeJs/ ExpressJs",
+    //   //   "Vendor can add products, his shop details and many more.",
+    //   //   "Admin can approve vendor, can also approve/reject his product and also add various images features and also hd points to the customer.",
+    //   //   "Customer can watch and buy products.",
+    //   //   "Wishlist and cart included.",
+    //   //   "Deal types also included which can be set by admin according to his interest."
+    //   // ]
+    // },
+    // {
+    //   role: "Full-Stack Developer Intern",
+    //   company: "Architectica Soft. Solutions",
+    //   companylogo: require("./assets/images/arch.png"),
+    //   date: "Jan 2019 – Apr 2019",
+    //   desc: "",
+    //   descBullets: [
+    //     "Worked on a live project named Rental WebApp.",
+    //     "This webapp deals with the customer and vendors for the dealing of renting if bikes, cars and adventure trips.",
+    //     "Front End Technology: Angular",
+    //     "Back End Technology: Firebase",
+    //     "Link: https://rental-2f319.firebaseapp.com/ "
+    //   ]
+    // }
   ]
 };
 
